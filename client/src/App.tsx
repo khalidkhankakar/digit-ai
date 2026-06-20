@@ -33,7 +33,7 @@ export default function App() {
         <div className="md:col-span-3 space-y-6">
           <div className="bg-white border border-slate-200/80 shadow-sm rounded-2xl p-6">
             <header className="mb-6">
-              <h1 className="text-xl font-bold tracking-tight text-slate-800">Digit Classifier</h1>
+              <h1 className="text-xl font-bold tracking-tight text-slate-800">CNN Digit Classifier</h1>
               <p className="text-xs text-slate-500 mt-1">Draw a number or drop an image file to analyze.</p>
             </header>
 
