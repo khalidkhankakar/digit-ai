@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  font-family: 'Geist', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 🌿 Geist / Vercel Design Tokens */
+@theme {
+  --color-primary: #171717;
+  --color-muted: #4d4d4d;
+  --color-bg: #ffffff;
+  --color-soft: #fafafa;
+  --color-border: #eaeaea;
+  --color-blue: #006bff;
+}

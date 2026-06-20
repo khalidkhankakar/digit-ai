@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>MNIST Digit AI - Handwritten Digit Recognition</title>
+
+    <meta
+      name="description"
+      content="AI-powered handwritten digit recognition app built with React, FastAPI, and PyTorch ONNX model. Draw or upload digits and get instant predictions."
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO -->
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Khalid Khan" />
+
+    <!-- Open Graph (Social Media Preview) -->
+    <meta property="og:title" content="MNIST Digit AI" />
+    <meta
+      property="og:description"
+      content="Draw or upload digits and get real-time AI predictions using a PyTorch ONNX model."
+    />
+    <meta property="og:type" content="website" />
+
+    <meta property="og:image" content="/preview.png" />
+
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "MNIST Digit AI",
+        "applicationCategory": "AI Tool",
+        "operatingSystem": "Web",
+        "description": "Handwritten digit recognition using PyTorch ONNX and FastAPI",
+        "author": {
+          "@type": "Person",
+          "name": "Khalid Khan"
+        }
+      }
+    </script>
+  </body>
+</html>
