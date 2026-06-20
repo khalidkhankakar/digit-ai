@@ -1,6 +1,8 @@
 # ✍️ MNIST Digit AI — Handwritten Digit Recognition
 
+<img src="preview.png" alt='digitAI'>
 
+---
 
 A modern full-stack AI application that recognizes handwritten digits (0–9) using a **PyTorch CNN model exported to ONNX**, served via **FastAPI**, and visualized through a **Vercel-style React + TypeScript frontend**.
 
